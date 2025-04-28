@@ -233,7 +233,7 @@ public class SManagement {
             System.out.println("8. Exit");
             System.out.print("Enter your choice: ");
             int choice = sc.nextInt();
-            sc.nextLine(); // Clear buffer
+            sc.nextLine(); 
             
             switch (choice) {
                 case 1:
